@@ -12,7 +12,7 @@ describe('Login de Usuario en Emaras', ()=>{
     it('Escribo mi usuario y clave', ()=>{
         /////////////////////////////  Pantalla de Login 
 
-       cy.logueo()
+       cy.mi_login()
        
         /////////////////////////////  Pantalla de Selección de Consorcios
         /// click sobre el edicio
